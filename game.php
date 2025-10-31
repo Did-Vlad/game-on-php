@@ -49,6 +49,7 @@ if (isset($_POST['play'])) {
     <title>Document</title>
 </head>
 <body>
+    <!--ДОПИСАТИ ГРУ НА HTML-->
 <h1>Ласкаво просимо до гри "Камінь-ножниці-бумага"</h1>
     <?php echo $_GET['name']; ?>
 </body>
