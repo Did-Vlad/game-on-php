@@ -51,6 +51,17 @@ if (isset($_POST['play'])) {
     <!--ДОПИСАТИ ГРУ НА HTML-->
 <h1>Ласкаво просимо до гри "Камінь-ножниці-бумага"</h1>
 <p>Ласкаво просимо, <?php echo($_GET['name']);?></p>
-    <?php echo $_GET['name']; ?>
+    <from method="post">
+        <select name="choise">
+        <option value="0">Камінь</option>
+        <option value="1">Ножниці</option>
+        <option value="2">Папір</option>
+        <option value="3">Тестовий режим</option>        
+        </select>
+        <input type="submit" name="Play" value="Грати">
+        <a href="login.php">Вийти</a>
+        <?php
+        if ($result !='') echo "<p>$result</p>"?>
+        echo $testOutput
 </body>
 </html>
