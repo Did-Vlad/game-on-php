@@ -65,6 +65,7 @@ if (isset($_POST['play'])) {
             <option value="3">Тестовий режим</option>        
         </select>
         <input type="submit" name="play" value="Грати">
+        <button type="button" onclick="window.location.href='login.php'">Вийти</button>
         <a href="login.php">Вийти</a>
     </form>
 
