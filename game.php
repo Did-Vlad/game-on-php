@@ -23,8 +23,7 @@ $result = '';
 $testOutput = '';
 if (isset($_POST['play'])) {
     $player = $_POST['choice'];
-    if ($human == 3) { // Test option
-        // Run test loops
+    if ($human == 3) { // // Tестова опція
         $testOutput = "<h2>test resoults:</h2><pre>";
         for ($c = 0; $c < 3; $c++) {
             for ($h = 0; $h < 3; $h++) {
